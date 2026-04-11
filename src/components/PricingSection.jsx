@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 
 const PricingSection = () => {
   return (
-    <div>
+    <div className="mb-20">
       <div className="items-center text-center mt-8 mb-8">
         <h1 className="text-5xl font-bold text-[#101727] mb-3">
           Simple, Transparent Pricing

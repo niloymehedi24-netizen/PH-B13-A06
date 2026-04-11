@@ -6,6 +6,7 @@ import PricingSection from "./components/PricingSection";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps";
 import Tools from "./components/Tools";
+import Footer from "./components/Footer";
 
 const getTools = async () => {
   const res = await fetch("/public/tools.json");
@@ -31,7 +32,7 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-30"
+          className={`tab rounded-full transition w-30 ${activeTab === "Products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-transparent text-black"}`}
           aria-label="Products"
           onClick={() => {
             setActiveTab("Products");
@@ -41,7 +42,7 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-30"
+          className={`tab rounded-full text-black transition w-30 ${activeTab === "Cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-transparent text-black"}`}
           aria-label={`Cart (${carts.length})`}
           onClick={() => {
             setActiveTab("Cart");
@@ -64,6 +65,8 @@ function App() {
       <Steps></Steps>
 
       <PricingSection></PricingSection>
+
+      <Footer></Footer>
     </>
   );
 }
