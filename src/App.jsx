@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import NavBar from "./components/NavBar";
+import PricingSection from "./components/PricingSection";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps";
 
@@ -13,6 +14,8 @@ function App() {
       <Stats></Stats>
 
       <Steps></Steps>
+
+      <PricingSection></PricingSection>
     </>
   );
 }

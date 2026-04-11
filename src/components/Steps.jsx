@@ -7,15 +7,15 @@ const Steps = () => {
   return (
     <div className="max-w-5xl mx-auto space-x-4 mb-8">
       <div className="items-center text-center mt-8 ">
-        <h1 className="text-5xl font-bold text-[#101727] mb-3">
+        <h1 className="text-4xl font-bold text-[#101727] mb-3">
           Get Started in 3 Steps
         </h1>
         <p className="text-[#627382] font-normal">
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>
-      <div className="grid grid-cols-3">
-        <div className="rounded-md h-80 w-80 shadow-2xl bg-transparent mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3">
+        <div className="rounded-lg h-80 w-80 shadow-2xl bg-transparent mt-8">
           <div>
             <span class="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
               {" "}
