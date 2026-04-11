@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "name": "Notion AI",
+    "description": "Smart workspace for notes and productivity\nAI helps write, summarize, and organize",
+    "price": 8,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["AI writing assistant", "Task management", "Collaboration tools", "Custom templates"],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png"
+  },
+  
+  {
+    "id": 2,
+    "name": "Figma",
+    "description": "Collaborative interface design tool\nDesign UI/UX with real-time teamwork",
+    "price": 0,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Real-time collaboration", "Design systems", "Prototyping", "Cloud storage"],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+  },
+  {
+    "id": 3,
+    "name": "ChatGPT Plus",
+    "description": "Advanced AI chatbot for productivity\nHelps with coding, writing, and research",
+    "price": 20,
+    "period": "monthly",
+    "tag": "mostwanted",
+    "tagType": "mostwanted",
+    "features": ["AI chat assistant", "Code generation", "Content writing", "Fast responses"],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+  },
+
+  {
+    "id": 4,
+    "name": "Adobe Photoshop",
+    "description": "Professional image editing software\nIndustry standard for photo manipulation",
+    "price": 21,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Advanced editing tools", "Layer support", "AI background removal", "PSD export"],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
+  },
+  {
+    "id": 5,
+    "name": "Trello",
+    "description": "Simple project management tool\nOrganize tasks using boards and cards",
+    "price": 0,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Kanban boards", "Task tracking", "Team collaboration", "Integrations"],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trello-logo-blue.svg"
+  },
+  {
+    "id": 6,
+    "name": "Resume.io",
+    "description": "Create professional resumes in minutes\nATS-friendly templates with export options",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Cover letter builder"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 7,
+    "name": "Jasper AI",
+    "description": "AI content writing assistant for marketing\nGenerate blogs, ads, and social content",
+    "price": 39,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI blog writer", "Ad copy generator", "SEO optimization", "Multi-language support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png"
+  },
+  {
+    "id": 9,
+    "name": "Pictory",
+    "description": "Turn text into engaging videos\nCreate short videos from scripts or articles",
+    "price": 19,
+    "period": "monthly",
+    "tag": "mostwanted",
+    "tagType": "mostwanted",
+    "features": ["Text to video", "Auto subtitles", "Stock footage library", "Voiceover support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/906/906361.png"
+  },
+  {
+    "id": 10,
+    "name": "Remove.bg",
+    "description": "Remove image backgrounds instantly\nAI-powered one-click background remover",
+    "price": 0,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["One-click background removal", "High resolution export", "API access", "Fast processing"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1829/1829586.png"
+  }
+]

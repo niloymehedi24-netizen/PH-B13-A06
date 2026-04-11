@@ -5,7 +5,7 @@ import RocketImage from "../assets/rocket.png";
 
 const Steps = () => {
   return (
-    <div className="max-w-5xl mx-auto space-x-4 mb-8">
+    <div className="max-w-5xl mx-auto space-x-4 mb-50">
       <div className="items-center text-center mt-8 ">
         <h1 className="text-4xl font-bold text-[#101727] mb-3">
           Get Started in 3 Steps
@@ -18,8 +18,7 @@ const Steps = () => {
         <div className="rounded-lg h-80 w-80 shadow-2xl bg-transparent mt-8">
           <div>
             <span class="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
-              {" "}
-              01{" "}
+              01
             </span>
           </div>
           <div className="justify-center items-center">
@@ -38,8 +37,7 @@ const Steps = () => {
         <div className="rounded-md h-80 w-80 shadow-2xl bg-transparent mt-8">
           <div>
             <span class="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
-              {" "}
-              02{" "}
+              02
             </span>
           </div>
           <div className="justify-center items-center">
@@ -57,8 +55,7 @@ const Steps = () => {
         <div className="rounded-md h-80 w-80 shadow-2xl bg-transparent mt-8">
           <div>
             <span class="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
-              {" "}
-              03{" "}
+              03
             </span>
           </div>
           <div className="justify-center items-center">
