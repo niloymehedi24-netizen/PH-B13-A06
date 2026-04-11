@@ -1,17 +1,20 @@
 import React from "react";
 import { MdDeleteSweep } from "react-icons/md";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { toast } from "react-toastify";
 
 const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, product) => sum + product.price, 0);
 
   const handlePayment = () => {
     setCarts([]);
+    toast.success("Congo! Payment Successful!");
   };
 
   const handleDelete = (item) => {
     const filteredArray = carts.filter((c) => c.id != item.id);
     setCarts(filteredArray);
+    toast.success("Product Removed from Cart");
   };
 
   return (

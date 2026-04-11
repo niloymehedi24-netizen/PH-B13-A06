@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 import { FaCheck } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const ToolCard = ({ tool, carts, setCarts }) => {
   const [isBuyNow, setIsBuyNow] = useState(false);
   const handleBuyNow = () => {
     setIsBuyNow(true);
+    const isFound = carts.find((item) => item.id === tool.id);
+    console.log(isFound);
+    if (isFound) {
+      toast.error("Product already added! Buy Other Product");
+      return;
+    }
     setCarts([...carts, tool]);
+    toast.success("Product Added to Cart");
   };
   return (
     <div className="space-y-4 shadow-2xl rounded-lg p-5">
