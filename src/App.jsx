@@ -42,7 +42,7 @@ function App() {
           type="radio"
           name="my_tabs_1"
           className="tab rounded-full w-30"
-          aria-label="Cart"
+          aria-label={`Cart (${carts.length})`}
           onClick={() => {
             setActiveTab("Cart");
           }}
@@ -57,7 +57,9 @@ function App() {
         ></Tools>
       ) : null}
 
-      {activeTab === "Cart" ? <Cart carts={carts}></Cart> : null}
+      {activeTab === "Cart" ? (
+        <Cart carts={carts} setCarts={setCarts}></Cart>
+      ) : null}
 
       <Steps></Steps>
 
