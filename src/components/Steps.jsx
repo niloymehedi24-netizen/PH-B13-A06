@@ -17,7 +17,7 @@ const Steps = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3">
         <div className="rounded-lg h-80 w-80 shadow-2xl bg-transparent mt-8">
           <div>
-            <span class="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
+            <span className="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
               01
             </span>
           </div>
@@ -36,7 +36,7 @@ const Steps = () => {
         </div>
         <div className="rounded-md h-80 w-80 shadow-2xl bg-transparent mt-8">
           <div>
-            <span class="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
+            <span className="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
               02
             </span>
           </div>
@@ -54,7 +54,7 @@ const Steps = () => {
         </div>
         <div className="rounded-md h-80 w-80 shadow-2xl bg-transparent mt-8">
           <div>
-            <span class="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
+            <span className="relative top-0 -right-70 bg-purple-500 text-white text-sm px-2 py-1 rounded-full">
               03
             </span>
           </div>

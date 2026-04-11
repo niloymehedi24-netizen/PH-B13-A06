@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 
-const ToolCard = ({ tool }) => {
+const ToolCard = ({ tool, carts, setCarts }) => {
   const [isBuyNow, setIsBuyNow] = useState(false);
   const handleBuyNow = () => {
     setIsBuyNow(true);
+    setCarts([...carts, tool]);
   };
   return (
     <div className="space-y-4 shadow-2xl rounded-lg p-5">

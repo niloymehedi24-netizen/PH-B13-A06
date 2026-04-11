@@ -2,7 +2,7 @@ import React, { use } from "react";
 import { FaCheck } from "react-icons/fa";
 import ToolCard from "./ToolCard";
 
-const Tools = ({ toolPromise }) => {
+const Tools = ({ toolPromise, carts, setCarts }) => {
   const tools = use(toolPromise);
   return (
     <div>
@@ -18,7 +18,12 @@ const Tools = ({ toolPromise }) => {
       </div>
       <div className="max-w-5xl mx-auto gap-4 mt-8 grid grid-cols-1 lg:grid-cols-3">
         {tools.map((tool) => (
-          <ToolCard tool={tool}></ToolCard>
+          <ToolCard
+            key={tool.id}
+            tool={tool}
+            carts={carts}
+            setCarts={setCarts}
+          ></ToolCard>
         ))}
       </div>
     </div>
